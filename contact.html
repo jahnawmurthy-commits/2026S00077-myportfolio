@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="Header" id="header">
+        <h1><strong>M.S. JAHNAW MURTHY</strong></h1>
+        <hr width="400px" align="left">
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="project.html">My Projects</a>
+            <a href="mailto:jahnaw.murthy@thesiu.in">Mail me</a>
+        </nav>
+    </header>
+    <br>  
+    <main>
+        <!-- <fieldset>
+            <legend>Personal Information</legend>
+        <form action="submit" method="post" id="Contactform">
+           
+            <label for="Firstname">First Name</label>
+            <input type="text" id="Firstname" name="Firstname" pattern="[A-Za-z]{5,10}" required>
+            <br>
+            <label for="Lastname">Last Name</label>
+            <input type="text" id="Lastname" name="Lastname" pattern="[A-Za-z]{5,10}">
+            <br>
+            <label for="Phonenumber">Mobile Number</label>
+            <input type="tel" pattern="[6-9][0-9]{9}"
+            title="Please Enter a valid 10-digit Phone Number starting with 6-9" required>
+            <br>
+            <button type="submit">Submit</button>
+            </form>
+    </form>
+        </fieldset> -->
+        <fieldset>
+            <legend class="legend">Let's start talking...</legend>
+            <form type = "submit" method="post" id="Contactform" class="smalltext">
+            <div>
+                <label for="name">Your Name</label>
+                <input type="text" class="input" name="name" required>
+            <br>
+            </div>
+            <div>
+                <label for="mobile_number">Mobile Number</label>
+                <input type="text" class="input" name="mobile_number" required>
+                <br>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" class="input" id="email" required>
+                <br>
+            </div>
+            <div>
+                <label for="reason">Reason for reaching out.</label>
+            <select name="reason" class="input" id="reason">
+                <option value="discussion">Discussing on new project</option>
+                <option value="Error">Error in existing product</option>
+                <option value="Job">Job Opportunity</option>
+            </select>
+            <br>
+            
+            </div>
+            <div>
+            <label for="discussing">Discussion</label>
+            <br>
+            <textarea name="discussion" class="input" id="discussing">Comments....</textarea>
+            </div>
+            <div>
+            <button type="reset" class="input">reset</button>
+            <button type="submit" class="input">submit</button>
+            </div>
+        </form>
+        </fieldset>
+        <h1 class="gradient-test">What is a gradient?</h1>
+        <div >
+        <span class="block-demo">My oh my</span>
+        <span class="block-demo">my my</span>
+        </div>
+        <section >
+            <div class="inline-demo">oh hey oh hey</div>
+            <div class="inline-demo">oh hey oh yea</div>
+            <div class="inline-demo">oh hey hey oh</div>
+            <div class="inline-demo">hey oh aaah</div>
+        </section>
+        <section>
+            <span class="inlineblock-demo">Ramba ho</span>
+            <span class="inlineblock-demo">Oh Ramba</span>
+            <span class="inlineblock-demo">OhOHOh</span>
+        </section>
+    </main>
+    <footer>
+        <img src="Images/signature.png" class="footer-image" width="300px">
+
+        <h6><em>
+                All rights are resevered by ME.
+                <a href="#header">Back to the Top</a>
+            </em></h6>
+    </footer>
+</body>
+
+</html>
