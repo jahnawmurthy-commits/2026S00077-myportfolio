@@ -84,7 +84,7 @@ h1{
     box-sizing: border-box;
 }
 .Small-text{
-    font-size: 2vw;
+    font-size: 1.75vw;
 }
 #home-text-me{
     font-size: 1.5vw;
@@ -98,7 +98,10 @@ h1{
     gap: 3rem;
 }
 #home-text-me{
-    padding: 2rem;
+    padding: 1.5rem;
+}
+.Headings{
+    font-size: 2.5vw;
 }
 /*  ===========================
         Tables
