@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+body{
+    background-color:cornsilk;
+    margin:0 15px;
+    font-family: 'Changa', sans-serif;
+}
+.Header{
+    background-color:wheat;
+    padding: 10px;
+    padding-bottom: 30px;
+    font-style: italic;
+    color: darkblue;
+    border-bottom: 3px solid darkblue;
+}
+.nav{
+    display: flex;
+    gap: 30px;
+    background-color: azure;
+    color: crimson;
+    margin-right: 300px;
+}
+.nav a[href="contact.html"]{
+    order:+4;
+}
+#heading{
+    font-weight: bolder;
+    font-style: italic;
+    color: darkslategrey;
+}
+#textblock{
+    color: slategray;
+    font-weight: bolder;
+    font-size: large;
+    font-style:italic ;
+    padding: 10px;
+}
+#Aboutme,#Abouttable,#Homeform,#Contactform,#Projecttable,
+#Mygoal,#Myhobby,#home-text-me{
+    background-color: wheat;
+    color:darkslateblue;
+}
+#about-local-video,#about-local-audio,#about-iframe,#Footer-image,#Profile-image{
+    border: 5px solid wheat;
+}
+#Projecttable,#Abouttable{
+    text-align:center;
+    margin: 0 auto ;
+    padding: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+      border: 1px solid slategrey;
+      padding: 5px;
+}
+.legend{
+    color: slateblue;
+    font-style: italic;
+}
+#Contactform{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#Profile{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 20px 0;
+}
