@@ -199,6 +199,9 @@ footer{
     .Input,.Legend{
         font-size: 5vw;
     }
+    .Headings{
+        font-size: 6vw;
+    }
     
     /* ==========================================================================
    PURE CSS COLLAPSIBLE & SCROLLABLE NAV (Add at the bottom)
