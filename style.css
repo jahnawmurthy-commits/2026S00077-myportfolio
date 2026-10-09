@@ -283,7 +283,7 @@ footer{
     .Small-text{
     font-size: 5vw;
     }
-    #home-text-me{
+    #home-text-me,#home-motto{
         font-size: 5vw;
     }
     .Input,.Legend{
