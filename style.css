@@ -192,10 +192,8 @@ th,td{
     font-style: italic;
     font-size: 50px;
 }
-#contact-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#contact-form,#contact-form-form{
+    margin: 0 auto;
     gap: 20px;
 }
 .Input{
