@@ -202,6 +202,12 @@ th,td{
     color: whitesmoke;
     font-size: 2vw;
 }
+.Button{
+    background-color: rgb(69, 10, 69);
+    color: whitesmoke;
+    font-size: 2vw;
+}
+}
 .Input:focus{
     outline: 2px solid #eee7e7;
 }
