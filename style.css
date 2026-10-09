@@ -3,9 +3,7 @@
         display: flex;
         flex-wrap: wrap;
     }
-    @media (max-width:1024px) {
-
-    }
+    
     :root Home1 {
     --heading: 50px;
     --text: 30px;
@@ -264,8 +262,44 @@ footer{
     text-decoration: none;
 }
 
-@media (max-width:768px) {
-         #home-profile{
+
+
+@media (max-width:1024px) {
+/* #home-profile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    } */
+    .horz-line{
+        width: 100%;
+    }
+    .Tables{
+    width: 100%;       
+    overflow-x: auto;  
+    box-sizing: border-box;
+    }
+    h1{
+        font-size: 5vw;
+    }
+    .Small-text{
+    font-size: 2.5vw;
+    }
+    #home-text-me,#home-motto{
+        font-size: 2.5vw;
+    }
+    .Legend{
+        font-size: 5vw;
+    }
+    .Input,.Label{
+        font-size: 2.5vw;
+    }
+    .Headings{
+        font-size: 2.5vw;
+    }
+    }
+
+    @media (max-width:768px) {
+    #home-profile{
     display: flex;
     justify-content: center;
     flex-direction: column;
