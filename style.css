@@ -54,7 +54,6 @@ body{
 }
 .nav a:hover {
     color: #6366f1;
-<<<<<<< HEAD
     /* transition: color 0.3s ease, transform 0.3s ease;
     transform: scale(1.1); */
 }
@@ -76,37 +75,56 @@ h1{
         Elements
     =========================== */
 #about-me,#about-table,#contact-form,#project-table,
-#project-my-goal,#home-text-me,#home-motto,#my-hobby,
+#project-my-goal,#home-motto,#my-hobby,
 #about-timeline{
     background-color: rgba(22,28,45,0.5);
     border-radius: 2rem;
     color:#e5e7eb;
-    padding:20px 20px;
+    padding:20px 40px;
     box-sizing: border-box;
+    width:fit-content;
+
+}
+#home-text-me{
+    background-color: rgba(22,28,45,0.5);
+    border-radius: 2rem;
+    color:#e5e7eb;
+    padding:20px 40px;
+    box-sizing: border-box;
+    width: fit-content;
+
+}
+#home-text-me{
+    padding: 1.5rem;
+}
+#home-motto,#my-hobby,#about-timeline,#project-my-goal,#project-table,#about-table{
+    margin: 0 auto;
 }
 .Small-text{
     font-size: 1.75vw;
 }
-#home-text-me{
+#home-text-me,#home-motto{
     font-size: 1.5vw;
 }
 #profile-image{
+    position: relative;
+    left: auto;
+    margin-left: auto;
     width: 300px;
 }
 #home-profile{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 3rem;
 }
-#home-text-me{
-    padding: 1.5rem;
-}
+
 .Headings{
     font-size: 2.5vw;
 }
 
-#about-me {
-    margin: 0 350px;
+#about-me{
+    margin: 0 auto;
 }
 
 /*  ===========================
@@ -115,11 +133,11 @@ h1{
 .Tables{
     display: flex;
     text-align:center;
-    margin: 0 auto ;
     border-collapse:collapse;     
     padding: 20px;
     width: 100%;
-  /*cpy pst */
+    margin: 0 auto;
+  
 }
 th,td{
     border: 1px solid slategrey;
@@ -133,9 +151,7 @@ th,td{
     font-style: italic;
     font-size: 2vw;
 }
-.Label,.Input{
 
-}
 #heading{
     font-weight: bolder;
     font-style: italic;
@@ -148,12 +164,13 @@ th,td{
     font-style:italic ;
     padding: 10px;
 }
-#Aboutme,#Abouttable,#Homeform,#Contactform,#Projecttable,
-#Mygoal,#Myhobby,#home-text-me{
+#about-me,#Abouttable,#Homeform,#contact-form,#Projecttable,
+#Mygoal,#Myhobby,{
     background-color: rgba(22,28,45,0.6);
     border-radius: 16px;
     color:#e5e7eb;
     padding:5px;
+    margin: 0 auto;
 }
 #about-local-video,#about-local-audio,#about-iframe,#Footer-image,#Profile-image{
     border: 1px solid rgba(255,255,255,0.1);
@@ -175,9 +192,10 @@ th,td{
     font-style: italic;
     font-size: 50px;
 }
-#Contactform{
+#contact-form{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 20px;
 }
 .Input{
@@ -336,3 +354,4 @@ footer{
   /* .mobile-nav a:active {
     background-color: #555;
   } */ 
+   /* This is such a mess and I need to fix this later but it is fine and working for now, 9 oct  */
