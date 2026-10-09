@@ -104,13 +104,11 @@ h1{
 .Headings{
     font-size: 2.5vw;
 }
-<<<<<<< HEAD
-=======
+
 #about-me {
     margin: 0 350px;
 }
 
->>>>>>> 0351a47 (changes suggested)
 /*  ===========================
         Tables
     =========================== */
@@ -136,7 +134,7 @@ th,td{
     font-size: 2vw;
 }
 .Label,.Input{
-=======
+
 }
 #heading{
     font-weight: bolder;
@@ -178,12 +176,10 @@ th,td{
     font-size: 50px;
 }
 #Contactform{
->>>>>>> efec0ffd5af7ee774750aeb3545541e869c5568f
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-<<<<<<< HEAD
 .Input{
     background-color: #0b0f19;
     color: whitesmoke;
@@ -193,7 +189,6 @@ th,td{
     outline: 2px solid #eee7e7;
 }
 /* .block-demo{
-=======
 #Profile{
     display: flex;
     flex-direction: row;
@@ -207,7 +202,6 @@ th,td{
     background: linear-gradient(90deg, red,blue,green,cornsilk ,wheat,black);
 }
 .block-demo{
->>>>>>> efec0ffd5af7ee774750aeb3545541e869c5568f
     display:block;
     background-color: #6366f1;
 }
@@ -220,14 +214,13 @@ th,td{
     display: inline-block;
     background-color: rgb(4, 155, 155);
     width: 300px;
-<<<<<<< HEAD
 } */
 /*  ===========================
         Footer
     =========================== */
 .Footer-image{
     width: 300px;
-=======
+
 }
 .input{
     background-color: #0b0f19;
@@ -236,13 +229,12 @@ th,td{
 
 }
 .footer-image{
->>>>>>> efec0ffd5af7ee774750aeb3545541e869c5568f
+
     border-radius: 20px;
 }
 footer{
     padding-top: 50px;
 }
-<<<<<<< HEAD
 
 .Links{
     color: #9ca3af;
@@ -252,6 +244,7 @@ footer{
     color: #6366f1;
     text-decoration: none;
 }
+
 @media (max-width:768px) {
          #home-profile{
     display: flex;
@@ -262,8 +255,8 @@ footer{
         width: 100%;
     }
     .Tables{
-    width: 100%;       /* Prevent the container from expanding past the screen width */
-    overflow-x: auto;  /* Turns on a horizontal scrollbar ONLY if the table overflows */
+    width: 100%;       
+    overflow-x: auto;  
     box-sizing: border-box;
     }
     h1{
@@ -281,7 +274,7 @@ footer{
     .Headings{
         font-size: 6vw;
     }
-    
+}
     /* ==========================================================================
    PURE CSS COLLAPSIBLE & SCROLLABLE NAV (Add at the bottom)
    ========================================================================== */
