@@ -192,6 +192,9 @@ th,td{
     font-style: italic;
     font-size: 50px;
 }
+.Label{
+    font-size: 2vw ;
+}
 #contact-form,#contact-form-form{
     margin: 0 auto;
     gap: 20px;
@@ -284,8 +287,11 @@ footer{
     #home-text-me,#home-motto{
         font-size: 5vw;
     }
-    .Input,.Legend{
+    .Legend{
         font-size: 5vw;
+    }
+    .Input,.Label{
+        font-size: 4vw;
     }
     .Headings{
         font-size: 6vw;
