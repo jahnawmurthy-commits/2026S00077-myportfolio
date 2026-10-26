@@ -61,7 +61,7 @@ body{
 }
 .horz-line{
     display: block;
-    width: 400px;
+    width: 550px;
     border: 1px solid rgba(255,255,255,0.5);
     margin-left: 0;
     margin-right: auto;
@@ -78,6 +78,7 @@ h1{
     background-color: rgba(22,28,45,0.5);
     border-radius: 2rem;
     color:#e5e7eb;
+    backdrop-filter: blur(12px);
     padding:20px 40px;
     box-sizing: border-box;
     width:fit-content;
