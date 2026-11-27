@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="style.css">
+    <script src="contact.js" defer></script>
 </head>
 
 <body>
@@ -21,11 +22,10 @@
     </header>
     <br>  
     <main id="main">
-         <form id="contact-form-form" type="submit" method="post">
+        <form id="contact-form-form" type="submit" method="post">
         <fieldset id="contact-form">
        
             <legend class="Legend">Let's start talking...</legend>
-            <form type = "submit" method="post"  class="Small-text">
             <div>
                 <label for="name" class="Label">Your Name</label>
                 <input type="text" class="Input" name="name" id="name" required>
@@ -58,6 +58,7 @@
             <div>
             <button type="reset" class="Button">reset</button>
             <button type="submit" class="Button">submit</button>
+            <p id="StatusMessage"></p>
             </div>
         
         </fieldset>
